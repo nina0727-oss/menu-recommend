@@ -1208,16 +1208,3 @@ with st.sidebar:
     if not OCR_AVAILABLE:
         st.caption(f"현재 OCR 비활성: {OCR_IMPORT_ERROR}")
 
-
-# -----------------------------
-# Run guide (in-app)
-# -----------------------------
-with st.expander("실행 방법", expanded=False):
-    st.markdown(
-        """
-1) 설치
-```bash
-pip install streamlit openai pillow
-# (선택) OCR 사용 시:
-pip install pytesseract
-# 그리고 OS에 tesseract 설치가 필요합니다 (예: macOS brew install tesseract)
