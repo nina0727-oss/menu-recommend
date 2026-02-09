@@ -2,7 +2,7 @@
 # 🍽️ Travel Menu Recommender
 # - Streamlit + OpenAI API
 # - 메뉴 DB 우선 → 없으면 텍스트/이미지(OCR 선택) fallback
-# - 추천 3개 + 구조화된 근거(룰 체인) + 피드백 누적(profile/history)
+# - 추천 3개 + 구조화된 근거(룰 체인) +  피드백 누적(profile/history)
 
 import os
 import json
